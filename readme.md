@@ -7,4 +7,4 @@
 
 Positioning of image in the hero section was a bit tricky and of course it was fun to code the first homepage assignment.
 
-![Image Preview](thumbnail.png)
+![Image Preview](9.png)
