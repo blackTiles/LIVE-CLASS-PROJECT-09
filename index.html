@@ -20,6 +20,7 @@
             </div>
             <div class="nav-items">
                 <!-- Navigation items Starts -->
+                <li class="close-btn" onclick="closeNav()" style="font-size: 35px;">&times;</li>
                 <a class="nav-item">Home</a>
                 <a class="nav-item">APIs</a>
                 <a class="nav-item">Blogs</a>
@@ -33,7 +34,9 @@
                         fill="white" />
                 </svg>
             </div>
-
+            <div class="hamburger">
+                <span onclick="openNav()" style="font-size: 35px;">&#9776;</span>
+            </div>
         </nav>
 
 
@@ -166,7 +169,7 @@
             <h2>Have <br> a question</h2>
             <h4 class="faq1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique mollitia <br>nam animi exercitationem
                 et eum enim nulla veritatis,</h4>
-            <h4 class="faq2">Do you have any question about anythings ?</h4>
+            <h4 class="faq2">Do you have any question about anythings?</h4>
 
             <button>Contact Us</button>
         </div>
@@ -215,6 +218,15 @@
         </div>
 
     </div>
+    <script>
+        function openNav() {
+          document.querySelector(".nav-items").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.querySelector(".nav-items").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>
